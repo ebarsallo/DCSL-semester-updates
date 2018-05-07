@@ -1,0 +1,17 @@
+# Guidelines:
+# http://www.keil.com/appnotes/files/apnt_279.pdf
+# http://www.keil.com/support/man/docs/uv4/uv4_b_filetypes.htm
+
+# Keil & JLink
+_build
+RTE
+JLinkSettings.ini
+JLinkLog.txt
+*.uvguix*
+
+# Target
+sx1272mb2das
+
+# Symblinks/junctions to SDK
+sdk_drivers
+sdk_middlewares

@@ -1,0 +1,25 @@
+
+## Main project
+pca10040\blank\arm5_no_packs\spi_pca10040.uvprojx
+
+## Hard links or junctions
+Create hard links or juntcions to the SDK using `mklink` command. Replace `%SDK_PATH%` with the appropiate path.
+
+```
+mklink /j sdk_components "%SDK_PATH%\components"
+mklink /j sdk_external "%SDK_PATH%\external"
+mklink /j sdk_svd "%SDK_PATH%\svd"
+```
+
+## Hardware Specification
+
+* nRF52 DK (Nordic nRF52832 SoC). [[Dev Kit](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52-DK)][[Guide](https://www.nordicsemi.com/eng/Products/Getting-started-with-the-nRF52-Development-Kit)]
+* SEMTECH SX1272/73 - 860 MHz to 1020 MHz Low Power Long Range Transceiver (LoRa transceiver). [[Datasheet](https://www.semtech.com/uploads/documents/sx1272.pdf)]
+
+## Requirements
+
+### SDK
+
+* [nRF5_SDK_14.1.0_1dda907.zip](https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v14.x.x/nRF5_SDK_14.1.0_1dda907.zip). This zip can also be found on the `archives` folder.
+* [Nordic nRF5 SDK](https://developer.nordicsemi.com/nRF5_SDK/).
+* [Nordic nRF5 SDK Documentation](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk5.v14.2.0%2Findex.html).

@@ -1,0 +1,16 @@
+# Guidelines:
+# http://www.keil.com/appnotes/files/apnt_279.pdf
+
+# Keil & JLink
+*.uvguix*
+RTE
+JLinkSettings.ini
+JLinkLog.txt
+
+# Target
+_build
+
+# Symblinks/junctions to SDK
+sdk_components
+sdk_external
+sdk_svd
