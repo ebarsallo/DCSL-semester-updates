@@ -18,8 +18,34 @@ mklink /j sdk_svd "%SDK_PATH%\svd"
 
 ## Requirements
 
+### Keil uVision
+
+The Keil uVision IDE can be downloaded [here](http://www2.keil.com/mdk5/install/). This is development tool used to modify the source code of this project. The profesional version is recommended since the project superpass the code limit restriction.
+
 ### SDK
 
-* [nRF5_SDK_14.1.0_1dda907.zip](https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v14.x.x/nRF5_SDK_14.1.0_1dda907.zip). This zip can also be found on the `archives` folder.
+The current version of the sdk is 14.1.0.1dda907 and can be downloaded from Nordic website: [nRF5_SDK_14.1.0_1dda907.zip](https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v14.x.x/nRF5_SDK_14.1.0_1dda907.zip). This zip can also be found on the `archives` folder.
+
+Further documentation can be found here:
 * [Nordic nRF5 SDK](https://developer.nordicsemi.com/nRF5_SDK/).
 * [Nordic nRF5 SDK Documentation](http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.sdk5.v14.2.0%2Findex.html).
+
+## Setup
+
+1. Clone this git repo.
+2. Decompress the **SDK** and remember the path.
+3. Create the junctions or simbolic to the SDK links using the `setup.bat` located on the root of this git repo. The script expects the path/to/SDK as a parameter (previous step).
+4. Install Keil uVision IDE. After the installation is complete, follow the instructions from the Pack Installer to add all the supplementary software packs.
+5. Install ST-Link Driver.
+
+## Notes
+
+For debugging purpose or convenience, you can use putty to connect to the nRF52 board. The configuration used for putty is:
+
+| Param | Value |
+| ----- | ----- |
+| **Serial line**     | COM3^   |
+| **Speed**           | 115200  |
+| **Connection Type** | Serial  |
+
+^ *Check the* `Device Manager` *for the correct port number on your installation*.
