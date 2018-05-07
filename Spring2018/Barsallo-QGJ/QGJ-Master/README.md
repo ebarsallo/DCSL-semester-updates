@@ -17,6 +17,11 @@ Once both applications are installed on their respective devices (mobile and wea
 
 Then, start the QGJ Mobile app.  
 
-<img height="400" src="./imgs/qgj-main.png" align="middle">
+<table cellspacing="0" cellpadding="0">
+    <tr>
+        <td> <img height="600" src="./imgs/qgj-main.png" align="middle"> </td>
+        <td> <img height="300" src="./imgs/qgj-wear.png" align="middle"> </td>
+    </tr>
+</table>
 
 From the **QGJ Mobile app**, select the target app, the component type to fuzz and fuzz campaign to execute. Finally, either run a single experiment (just one campaign) or all the experiments (all campaigns). After the fuzz test is done, the log file (using `adb logcat`) need to be analyzed to find vulnerabilities.
