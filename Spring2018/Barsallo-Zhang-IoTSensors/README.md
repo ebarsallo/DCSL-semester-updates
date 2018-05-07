@@ -11,7 +11,7 @@ Each project includes the following features:
  * Read measurements from sensors (nitrate concentration & temperature) and forward them to the Gateway.
  * Scripts that collects readings from the boundary nodes and upload them to the Cloud Server.
 
-Specific instruction for setup and run each project are in their respective subfolders.
+Specific instructions for setup and run each project are in their respective subfolders.
 
 ### Future Work
 
