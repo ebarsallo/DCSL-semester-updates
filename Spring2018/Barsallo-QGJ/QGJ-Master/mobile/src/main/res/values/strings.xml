@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">squibble</string>
+
+    <string name="inputField">startIndex,end+1</string>
+
+    <string name="lbl_Target">Target App:</string>
+    <string name="lbl_Types">Component Type:</string>
+    <string name="lbl_FuzzType">Fuzz Type:</string>
+    <string name="lbl_Actions">Actions:</string>
+    <string name="lbl_Output">Output:</string>
+
+    <string name="btn_FuzzSingle">Fuzz Single</string>
+    <string name="btn_FuzzAll">Fuzz All</string>
+    <string name="btn_RunAll">Run All (Expt)</string>
+    <string name="btn_Clear">Clear</string>
+    <string name="btn_AddIntent">Run Component</string>
+
+</resources>
